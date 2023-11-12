@@ -1,0 +1,23 @@
+.footer{
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.header2{
+    text-align: center;
+    font-size: 12pt;
+    padding: 15px;
+    justify-content: center;
+}
+@font-face {
+    font-family: 'CustomFont';
+    src: local('CustomFont'), url('../assets/fonts/MONTSERRAT-MEDIUM.OTF') format('opentype');
+}
+.description2{
+    margin: 0 auto;
+    max-width: 620px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'CustomFont', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10pt;
+    margin-bottom: 50px;
+}

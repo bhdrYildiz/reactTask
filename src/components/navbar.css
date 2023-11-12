@@ -1,0 +1,21 @@
+.navbar {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header{
+  margin-right: auto;
+}
+.icons{
+  display: flex;
+}
+.icons img{
+  width: 16px;
+  height: 16px;
+}
+.icons div{
+  margin-left: 20px;
+}
+

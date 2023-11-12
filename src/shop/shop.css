@@ -1,0 +1,58 @@
+.products {
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    padding: 10px;
+}
+.product {
+    border-radius: 15px;
+    width: 200px;
+    height: 250px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@font-face {
+  font-family: 'CustomFont';
+  src: local('CustomFont'), url('../assets/fonts/MONTSERRAT-MEDIUM.OTF') format('opentype');
+}
+.product img {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease-in-out;
+}
+.product:hover img {
+  transform: scale(1.2); /* Hover durumunda 1.2 katına zoom yapar */
+}
+  
+  .product .description {
+    text-align: center;
+    font-family: 'CustomFont';
+  }
+  
+  .product:hover {
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+  
+  .addToCartBttn {
+    background-color: transparent;
+    border: 2px solid rgb(19, 19, 19);
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+  }
+  
+  .addToCartBttn:hover {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    cursor: pointer;
+  }
